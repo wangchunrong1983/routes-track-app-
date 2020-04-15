@@ -30,6 +30,6 @@ app.get('/', requireAuth, (req, res) => {
     res.send (`Your email: ${req.user.email}`)
 })
 
-app.listen(3001, ()=> {
-    console.log('running on port 3001')
+app.listen(3002, ()=> {
+    console.log('Server is running on port 3002')
 })
